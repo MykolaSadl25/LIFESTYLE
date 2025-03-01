@@ -1,0 +1,113 @@
+:root{
+    --hover-color:#03A9F4;
+    --header-color:#7D7D7D;
+    --heading-color:#B4AD9E;
+    --title-color:#626262;
+    --text-color:#626262;
+}
+
+body{
+    font-family: "Playfair Display";
+}
+
+.container{
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    /* outline: solid 1px grey; */
+}
+
+.header{
+    padding-top: 71px;
+    padding-bottom: 92px;
+}
+
+.header-list{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 315px;
+    margin-right: 330px;
+}
+
+.header-link{
+    color: var(--header-color);
+font-family: "Playfair Display";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.header-link:hover{
+    color: var(--hover-color);
+font-family: "Playfair Display";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.gallery-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.gallery-item{
+    margin-bottom: 130px;
+}
+
+.gallery-image{
+    width: 419px;
+height: 280px;
+}
+
+.gallery-heading{
+    color: var(--heading-color);
+font-family: Ubuntu;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin-top: 62px;
+margin-bottom: 32px;
+}
+
+.gallery-title{
+    color: var(--title-color);
+font-family: "Playfair Display";
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 40px;
+}
+
+.gallery-desc{
+    color: var(--text-color);
+font-family: "Playfair Display";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 420px;
+}
+
+.gallery-wrap{
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-btn{
+    color: var(--text-color);
+font-family: "Playfair Display";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 20px 48px 21px 49px;
+background-color: #fff;
+border: solid 1px var(--text-color);
+}
