@@ -1,0 +1,28 @@
+.header {
+  padding-top: 71px;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 315px;
+    margin-right: 330px;
+  }
+
+  &__link {
+    color: $header-color;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    &:hover {
+      color: $hover-color;
+      font-family: "Playfair Display";
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+}
